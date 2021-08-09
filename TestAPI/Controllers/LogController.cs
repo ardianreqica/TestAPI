@@ -33,11 +33,6 @@ namespace TestAPI.Controllers
         {
             try
             {
-
-                var test = configuration.GetSection("LogProxyAPI:Token");
-                var test2 = configuration.GetSection("LogProxyAPI:Token").Value;
-                var test3 = configuration.GetSection("LogProxyAPI:Token").Value.ToString() ;
-
                 ListLogResponseModel listLogResponseModel = new ListLogResponseModel();
 
                 httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer",
