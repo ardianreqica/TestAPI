@@ -12,3 +12,6 @@ Password: t35tAp1Us3r
 
 
 Start app on IIS Express or using Docker Image.
+
+Application is published on Docker: https://registry.hub.docker.com/repository/docker/areqica/testapi
+docker pull areqica/testapi
